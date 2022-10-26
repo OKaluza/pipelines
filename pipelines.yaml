@@ -9,3 +9,4 @@ pipelines:
     source: 'resizer'
     image: 'jupyter/minimal-notebook:hub-3.0.0'
     entrypoint: "Resizer.py"
+    icon: "fas fa-images"
