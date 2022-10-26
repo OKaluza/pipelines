@@ -7,6 +7,6 @@ pipelines:
     description: "Simple example pipeline that resizes images from source task and creates a new task with the modified source images"
     maintainer: "Owen Kaluza"
     source: 'resizer'
-    image: 'jupyter/minimal-notebook:hub-3.0.0'
+    image: 'default'
     entrypoint: "Resizer.py"
     icon: "fas fa-images"
