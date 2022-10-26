@@ -1,0 +1,11 @@
+#Custom pipelines list
+about: "ASDC Custom Pipelines : Testing"
+logo: "https://avatars.githubusercontent.com/u/69889946?s=200&v=4"
+pipelines:
+  - name: "Image Resizer"
+    tag: "resizer"
+    description: "Simple example pipeline that resizes images from source task and creates a new task with the modified source images"
+    maintainer: "Owen Kaluza"
+    source: 'resizer'
+    image: 'jupyter/minimal-notebook:hub-3.0.0'
+    entrypoint: "Resizer.py"
