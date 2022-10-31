@@ -2,11 +2,11 @@
 about: "ASDC Custom Pipelines : Testing"
 logo: "https://avatars.githubusercontent.com/u/69889946?s=200&v=4"
 pipelines:
-  - name: "Image Resizer"
+  - name: "Example Custom Pipeline"
     tag: "resizer"
-    description: "Simple example pipeline that resizes images from source task and creates a new task with the modified source images"
+    description: "Does nothing for now"
     maintainer: "Owen Kaluza"
-    source: 'resizer'
-    image: 'default'
-    entrypoint: "Resizer.py"
-    icon: "fas fa-images"
+    source: 'https://github.com/OKaluza/pipelines.git'
+    image: 'base'
+    entrypoint: "test.py"
+    icon: "fas fa-vial"
